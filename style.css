@@ -174,3 +174,42 @@ header h1 span{
 
 /* -----Ready to focus better----- */
 
+.webflow-focus{
+    height: 696px;
+    max-width: 1140px;
+    margin: 137px auto;
+    text-align: center;
+    background-color: #ffffff;
+
+}
+.webflow-focus h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: #252432;
+    padding-top: 71px;
+}
+.webflow-focus p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #8d8e99;
+    margin: 20px auto;
+}
+
+.webflow button{
+    display: block;
+    margin: 20px auto;
+}
+.webflow img{
+    border-radius: 48px;
+    transition: 0.3s ease;
+}
+.webflow img:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+/* -----get-touch---- */
+
+
+
+
