@@ -86,6 +86,11 @@ header h1 span{
 }
 .action-section img{
     border-radius: 48px;
+    transition: 0.3s ease;
+}
+.action-section img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .action-section, h3{
     font-size: 42px;
@@ -107,7 +112,7 @@ header h1 span{
     border-radius: 24px;
     height: 306px;
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 0 auto 137px;
     text-align: center;
 }
 .users {
@@ -131,4 +136,41 @@ header h1 span{
     color: #8d8e99;
     font-family: "Inter", sans-serif;
 }
+
+/* ---------review-section-------- */
+
+.review-section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.review{
+    display: flex;
+    align-items: center;
+    height: 210px;
+    width: 366.67px;
+    border-radius: 14px;
+    background: #ffffff;
+    padding: 24px;
+    transition: 0.3s ease;
+}
+.review:hover{
+    transform: scale(1.1);
+    background: #e6e8ff;
+    cursor: pointer;
+}
+.avatar{
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+}
+.avatar img{
+    border-radius: 50%;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+/* -----Ready to focus better----- */
 
