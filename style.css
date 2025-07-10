@@ -56,7 +56,7 @@ header h1 span{
 .bennar-section{
     font-size: 45px;
     font-weight: bold;
-    /* height: 237px; */
+    height: 237px;
     width: 905px;
     margin: 0 auto;
     text-align: center;
@@ -99,3 +99,36 @@ header h1 span{
     padding: 23px 0;
     
 }
+
+/* -------productive-section------- */
+
+.productive-users{
+    background-color: #e6e8ff;
+    border-radius: 24px;
+    height: 306px;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+.users {
+    display: flex;
+    align-items: center;
+    gap: 167px;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+}
+.users h2{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+}
+.users p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #8d8e99;
+    font-family: "Inter", sans-serif;
+}
+
