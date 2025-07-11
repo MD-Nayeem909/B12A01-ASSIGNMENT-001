@@ -20,6 +20,7 @@ button{
     border: none;
     cursor: pointer;
     transition: 0.3s;
+    box-shadow: 0 2px 8px #c5c4cf;
 }
 button:hover{
     background-color: #8249ec;
@@ -87,6 +88,8 @@ header h1 span{
 .action-section img{
     border-radius: 48px;
     transition: 0.3s ease;
+    padding: 8px;
+    border: 8px solid #ffffff;
 }
 .action-section img:hover{
     transform: scale(1.1);
@@ -114,6 +117,7 @@ header h1 span{
     max-width: 1140px;
     margin: 0 auto 137px;
     text-align: center;
+    box-shadow: 0 2px 8px #c5c4cf;
 }
 .users {
     display: flex;
@@ -153,6 +157,7 @@ header h1 span{
     background: #ffffff;
     padding: 24px;
     transition: 0.3s ease;
+    box-shadow: 0 2px 8px #c5c4cf;
 }
 .review:hover{
     transform: scale(1.1);
@@ -177,9 +182,10 @@ header h1 span{
 .webflow-focus{
     height: 696px;
     max-width: 1140px;
-    margin: 137px auto;
+    margin: 137px auto 0;
     text-align: center;
     background-color: #ffffff;
+    box-shadow: 0 4px 8px #c5c4cf;
 
 }
 .webflow-focus h2{
@@ -202,6 +208,7 @@ header h1 span{
 .webflow img{
     border-radius: 48px;
     transition: 0.3s ease;
+    box-shadow: 0 4px 8px #c5c4cf;
 }
 .webflow img:hover {
     transform: scale(0.9);
@@ -210,6 +217,62 @@ header h1 span{
 
 /* -----get-touch---- */
 
+.get-in-touch-section{
+    display: flex;
+    height: 632px;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.get-in-touch-section h2{
+    font-size: 97px;
+    font-weight: bold;
+    height: 232px;
+    width: 528px;
+}
+.message {
+    height: 490px;
+    width: 497px;
+}
+.message input {
+    height: 70px;
+    width: 497px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 15px;
+}
+.message p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #252432;
+    padding-top: 19px;
+    padding-bottom: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+#btn-get-touch{
+    width: 497px;
+    height: 62px;
+    margin-top: 19px;
+}
+
+textarea{
+    width: 460px; 
+    height: 135px; 
+    font-size: 20px; 
+    font-weight: 400; 
+    color: #757575;
+    box-shadow: 0 4px 12px #c5c4cf;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+
+
+}
 
 
 
